@@ -1,11 +1,13 @@
-
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class LoginAndLogout extends Commons {
-
+public class LogoutFromSettingOption extends Commons {
 
     @Test
-    public void loginAndlogout() throws InterruptedException {
+    public void logoutFromSetting() throws InterruptedException {
+
         verifyTitle("IconACADEME - Online Education Revolution in Bangladesh");
 
         //Click Login button
@@ -23,11 +25,21 @@ public class LoginAndLogout extends Commons {
         clickByCss("#wp-submit");
         sleepFor(5);
 
-        //Logout
-        mouseOver("//*[@id=\"masthead\"]/div[1]/div/div/div[3]/div/div[3]/a/span[2]/img", "xpath");
-        clickByXpath("//*[@id=\"masthead\"]/div[1]/div/div/div[3]/div/div[3]/div/span/a");
+        //Expand left pane
+        clickByCss("#left-menu-toggle");
 
-        //Verify login Url
+        //click
+        mouseOver("#menu-item-7123 > a", "css");
+
+        //Click Sub-menu
+        sleepFor(4);
+        driver.findElement(By.linkText("Forums")).click();
+
+        //Log out from main menu
+        clickByXpath("//*[@id=\"menu-item-4546\"]/a");
+        sleepFor(5);
+
+        //Verify Login Url
         viewCurrentURL();
         verifyURL(ObjectRepo.loginURL);
 
@@ -35,7 +47,7 @@ public class LoginAndLogout extends Commons {
         clickByCss("#logo > h2 > a > img.boss-logo.large");
         sleepFor(2);
 
-        //Verify home URL
+        //Verify Home Url
         viewCurrentURL();
         verifyURL(ObjectRepo.homeURL);
 
@@ -43,3 +55,4 @@ public class LoginAndLogout extends Commons {
 
     }
 }
+

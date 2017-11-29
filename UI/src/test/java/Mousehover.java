@@ -1,12 +1,10 @@
-
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class LoginAndLogout extends Commons {
-
+public class Mousehover extends Commons {
 
     @Test
-    public void loginAndlogout() throws InterruptedException {
-        verifyTitle("IconACADEME - Online Education Revolution in Bangladesh");
+    public void mouseOver() throws InterruptedException {
 
         //Click Login button
         clickByCss("a.login");
@@ -23,19 +21,26 @@ public class LoginAndLogout extends Commons {
         clickByCss("#wp-submit");
         sleepFor(5);
 
-        //Logout
-        mouseOver("//*[@id=\"masthead\"]/div[1]/div/div/div[3]/div/div[3]/a/span[2]/img", "xpath");
-        clickByXpath("//*[@id=\"masthead\"]/div[1]/div/div/div[3]/div/div[3]/div/span/a");
+        //Expand left pane
+        clickByCss("#left-menu-toggle");
 
-        //Verify login Url
+        //Mouse hover on profile
+        mouseOver("#menu-item-7123 > a", "css");
+
+        //Click sub-menu
+        sleepFor(4);
+        driver.findElement(By.linkText("Forums")).click();
+
+        //Log out from main menu
+        clickByXpath("//*[@id=\"menu-item-4546\"]/a");
+        sleepFor(5);
+
         viewCurrentURL();
         verifyURL(ObjectRepo.loginURL);
 
         //go to home page
         clickByCss("#logo > h2 > a > img.boss-logo.large");
-        sleepFor(2);
 
-        //Verify home URL
         viewCurrentURL();
         verifyURL(ObjectRepo.homeURL);
 
@@ -43,3 +48,4 @@ public class LoginAndLogout extends Commons {
 
     }
 }
+

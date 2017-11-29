@@ -15,9 +15,8 @@
         <classes>
             <!--<class name="CoursesModule"/>-->
             <!--<class name="InvalidLogin"/>-->
-            <!--<class name="LoginAndLogout"/>-->
-            <!--<class name="Mousehover"/>-->
             <class name="LoginAndLogout"/>
+            <!--<class name="Mousehover"/>-->
         </classes>
     </test>
 

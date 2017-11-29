@@ -196,7 +196,19 @@ public class Commons {
     public void verifyTitle (String expectedTitle) {
         String actualTitle = driver.getTitle();
         actualTitle.equals(expectedTitle);
+
     }
+
+    public void verifyURL(String url) {
+        String currentURL = driver.getCurrentUrl();
+        try {
+            url.equals(currentURL);
+        } catch (Exception e) {
+            System.out.println("Expected Url:" + url + "but current url is: " + currentURL);
+        }
+    }
+
+
     public void clickByXpath(String locator) {
         driver.findElement(By.xpath(locator)).click();
     }
@@ -229,6 +241,12 @@ public class Commons {
         List<WebElement> list = new ArrayList<WebElement>();
         list = driver.findElements(By.id(locator));
         return list;
+    }
+
+    public String viewCurrentURL() {
+        String currentUrL = driver.getCurrentUrl();
+        System.out.println(currentUrL);
+        return currentUrL;
     }
 
     public List<String> getTextFromWebElements(String locator){
@@ -285,6 +303,11 @@ public class Commons {
         String st = driver.findElement(By.cssSelector(locator)).getText();
         return st;
     }
+    public void verifyElementText(String locator, String expectedText) {
+        waitUntilVisible(By.cssSelector(locator));
+        String actualText = getTextByCss(locator);
+        actualText.equals(expectedText);
+    }
     public String getTextByXpath(String locator){
         String st = driver.findElement(By.xpath(locator)).getText();
         return st;
@@ -313,33 +336,22 @@ public class Commons {
     public void sleepFor(int sec)throws InterruptedException{
         Thread.sleep(sec * 1000);
     }
-    public void mouseHoverByCSS(String locator){
-        try {
-            WebElement element = driver.findElement(By.cssSelector(locator));
-            Actions action = new Actions(driver);
-            Actions hover = action.moveToElement(element);
-        }catch(Exception ex){
-            System.out.println("First attempt has been done, This is second try");
-            WebElement element = driver.findElement(By.cssSelector(locator));
-            Actions action = new Actions(driver);
-            action.moveToElement(element).perform();
-
-        }
-
+    //overLoading
+    public void sleepFor(int min, int sec)throws InterruptedException {
+        int time = sec * 1000 + 60 * 1000 * min;
+        Thread.sleep(time);
     }
-    public void mouseHoverByXpath(String locator){
-        try {
-            WebElement element = driver.findElement(By.xpath(locator));
-            Actions action = new Actions(driver);
-            Actions hover = action.moveToElement(element);
-        }catch(Exception ex){
-            System.out.println("First attempt has been done, This is second try");
+
+    public void mouseOver(String locator, String locatorType) {
+        Actions action = new Actions(driver);
+        if (locatorType=="css"){
             WebElement element = driver.findElement(By.cssSelector(locator));
-            Actions action = new Actions(driver);
             action.moveToElement(element).perform();
-
         }
-
+        if (locatorType=="xpath") {
+            WebElement element = driver.findElement(By.xpath(locator));
+            action.moveToElement(element).perform();
+        }
     }
     //handling Alert
     public void okAlert(){
