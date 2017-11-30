@@ -102,7 +102,7 @@ public class Commons {
     private String browserstack_accesskey = "access-key";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
-    @BeforeMethod
+    @BeforeClass
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("Windows") String os,@Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
                               String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
@@ -181,10 +181,10 @@ public class Commons {
         return driver;
     }
 
-    @AfterMethod
+    @AfterClass
     public void closeSession(){
         System.out.println("AfterMethod (Close Browser) was called");
-        driver.quit();
+      driver.quit();
     }
 
     // Selenium void Methods
@@ -401,6 +401,11 @@ public class Commons {
     public void waitUntilClickAble(By locator){
         WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+    }
+    public void waitUntilVisibleAndClickElement(By locator){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        element.click();
     }
     public void waitUntilVisible(By locator){
         WebDriverWait wait = new WebDriverWait(driver, 10);

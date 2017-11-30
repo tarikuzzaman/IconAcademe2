@@ -10,6 +10,7 @@
     <parameter name="browserName" value="Chrome"/>
     <parameter name="browserVersion" value="53.0"/>
     <parameter name="url" value="https://www.iconacademe.com/"/>
+    <parameter name="userID" value="test"/>
 
     <test name = "Icon Academe Login and Logout">
         <classes>
@@ -17,7 +18,9 @@
             <!--<class name="InvalidLogin"/>-->
             <!--<class name="LoginAndLogout"/>-->
             <!--<class name="Mousehover"/>-->
-            <class name="LoginAndLogout"/>
+            <!--<class name="LoginAndLogout"/>-->
+            <!--<class name="Purchase"/>-->
+            <class name="ReadfromExcel"/>
         </classes>
     </test>
 

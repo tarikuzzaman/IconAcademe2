@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f0888a5-4bd1-4221-842d-ff2bff29a52e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/src/test/java/CoursesModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/src/test/java/InvalidLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/src/test/java/LogoutFromSettingOption.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/src/test/java/Mousehover.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/src/test/java/StoreButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/src/test/resources/TestData.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/main/java/DataRead.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/src/test/java/Purchase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/src/test/java/ReadfromExcel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/src/test/java/app_base.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/target/classes/Commons.class" afterPath="$PROJECT_DIR$/Core/target/classes/Commons.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/target/test-classes/CoursesModule.class" afterPath="$PROJECT_DIR$/UI/target/test-classes/CoursesModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/target/test-classes/InvalidLogin.class" afterPath="$PROJECT_DIR$/UI/target/test-classes/InvalidLogin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/target/test-classes/LoginAndLogout.class" afterPath="$PROJECT_DIR$/UI/target/test-classes/LoginAndLogout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/target/test-classes/Mousehover.class" afterPath="$PROJECT_DIR$/UI/target/test-classes/Mousehover.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/target/test-classes/StoreButton.class" afterPath="$PROJECT_DIR$/UI/target/test-classes/StoreButton.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/Core.iml" afterPath="$PROJECT_DIR$/Core/Core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/pom.xml" afterPath="$PROJECT_DIR$/Core/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/src/main/java/Commons.java" afterPath="$PROJECT_DIR$/Core/src/main/java/Commons.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/UI.iml" afterPath="$PROJECT_DIR$/UI/UI.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/src/test/java/LoginAndLogout.java" afterPath="$PROJECT_DIR$/UI/src/test/java/LoginAndLogout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/src/test/java/ObjectRepo.java" afterPath="$PROJECT_DIR$/UI/src/test/java/ObjectRepo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/src/test/resources/UI-Runner.xml" afterPath="$PROJECT_DIR$/UI/src/test/resources/UI-Runner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/target/test-classes/UI-Runner.xml" afterPath="$PROJECT_DIR$/UI/target/test-classes/UI-Runner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,46 +45,114 @@
       <file leaf-file-name="Commons.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Core/src/main/java/Commons.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2350">
-              <caret line="249" column="5" lean-forward="true" selection-start-line="249" selection-start-column="5" selection-end-line="249" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="104" column="11" lean-forward="false" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8024#8025#0" expanded="true" />
-                <element signature="e#8091#8092#0" expanded="true" />
-                <element signature="e#8576#8577#0" expanded="true" />
-                <element signature="e#8637#8638#0" expanded="true" />
-                <element signature="e#9462#9474#0" expanded="true" />
-                <element signature="e#9833#9845#0" expanded="true" />
-                <element signature="e#9890#9898#0" expanded="true" />
-                <element signature="e#10706#10718#0" expanded="true" />
-                <element signature="e#10929#10941#0" expanded="true" />
-                <element signature="e#11169#11170#0" expanded="true" />
-                <element signature="e#11209#11210#0" expanded="true" />
-                <element signature="e#11244#11245#0" expanded="true" />
-                <element signature="e#11287#11288#0" expanded="true" />
-                <element signature="e#11339#11340#0" expanded="true" />
-                <element signature="e#11387#11388#0" expanded="true" />
-                <element signature="e#12056#12057#0" expanded="true" />
-                <element signature="e#12123#12124#0" expanded="true" />
-                <element signature="e#12375#12383#0" expanded="true" />
-                <element signature="e#13727#13728#0" expanded="true" />
-                <element signature="e#13775#13776#0" expanded="true" />
-                <element signature="e#13814#13815#0" expanded="true" />
-                <element signature="e#13864#13865#0" expanded="true" />
-                <element signature="e#15805#15806#0" expanded="true" />
-                <element signature="e#15872#15873#0" expanded="true" />
-                <element signature="e#15915#15916#0" expanded="true" />
-                <element signature="e#15995#15996#0" expanded="true" />
+                <element signature="e#8020#8021#0" expanded="true" />
+                <element signature="e#8087#8088#0" expanded="true" />
+                <element signature="e#8572#8573#0" expanded="true" />
+                <element signature="e#8633#8634#0" expanded="true" />
+                <element signature="e#9458#9470#0" expanded="true" />
+                <element signature="e#9829#9841#0" expanded="true" />
+                <element signature="e#9886#9894#0" expanded="true" />
+                <element signature="e#10702#10714#0" expanded="true" />
+                <element signature="e#10925#10937#0" expanded="true" />
+                <element signature="e#11165#11166#0" expanded="true" />
+                <element signature="e#11205#11206#0" expanded="true" />
+                <element signature="e#11240#11241#0" expanded="true" />
+                <element signature="e#11283#11284#0" expanded="true" />
+                <element signature="e#11335#11336#0" expanded="true" />
+                <element signature="e#11383#11384#0" expanded="true" />
+                <element signature="e#12052#12053#0" expanded="true" />
+                <element signature="e#12119#12120#0" expanded="true" />
+                <element signature="e#12371#12379#0" expanded="true" />
+                <element signature="e#13723#13724#0" expanded="true" />
+                <element signature="e#13771#13772#0" expanded="true" />
+                <element signature="e#13810#13811#0" expanded="true" />
+                <element signature="e#13860#13861#0" expanded="true" />
+                <element signature="e#16044#16045#0" expanded="true" />
+                <element signature="e#16111#16112#0" expanded="true" />
+                <element signature="e#16154#16155#0" expanded="true" />
+                <element signature="e#16234#16235#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoreButton.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Purchase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/src/test/java/Purchase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadfromExcel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/src/test/java/ReadfromExcel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataRead.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/src/main/java/DataRead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="55" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_base.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/src/test/java/app_base.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoreButton.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UI/src/test/java/StoreButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,75 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mousehover.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/src/test/java/Mousehover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UI-Runner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI/src/test/resources/UI-Runner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogoutFromSettingOption.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/src/test/java/LogoutFromSettingOption.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginAndLogout.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/src/test/java/LoginAndLogout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvalidLogin.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UI/src/test/java/InvalidLogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="36" column="82" lean-forward="false" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoursesModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/src/test/java/CoursesModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="396">
+              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -175,7 +195,17 @@
       <find>webdri</find>
       <find>action</find>
       <find>verify</find>
+      <find>sleep</find>
+      <find>wait</find>
+      <find>wai</find>
+      <find>bef</find>
+      <find>after</find>
+      <find>before</find>
+      <find>DataRead</find>
     </findStrings>
+    <replaceStrings>
+      <replace>DataReader</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,22 +218,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Core/pom.xml" />
         <option value="$PROJECT_DIR$/UI/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/UI/src/main/java/test.java" />
         <option value="$PROJECT_DIR$/UI/src/test/java/LoginCases/LoginAndLogout.java" />
         <option value="$PROJECT_DIR$/UI/src/test/java/test.java" />
-        <option value="$PROJECT_DIR$/UI/src/test/java/ObjectRepo.java" />
         <option value="$PROJECT_DIR$/UI/src/test/java/Mousehoover.java" />
-        <option value="$PROJECT_DIR$/UI/src/test/resources/UI-Runner.xml" />
         <option value="$PROJECT_DIR$/UI/src/test/java/CoursesModule.java" />
-        <option value="$PROJECT_DIR$/UI/src/test/java/LoginAndLogout.java" />
         <option value="$PROJECT_DIR$/UI/src/test/java/LogoutFromSettingOption.java" />
         <option value="$PROJECT_DIR$/UI/src/test/java/Mousehover.java" />
         <option value="$PROJECT_DIR$/UI/src/test/java/StoreButton.java" />
-        <option value="$PROJECT_DIR$/Core/src/main/java/Commons.java" />
         <option value="$PROJECT_DIR$/UI/src/test/java/InvalidLogin.java" />
+        <option value="$PROJECT_DIR$/UI/src/test/java/ObjectRepo.java" />
+        <option value="$PROJECT_DIR$/UI/src/test/java/LoginAndLogout.java" />
+        <option value="$PROJECT_DIR$/UI/src/test/java/app_base.java" />
+        <option value="$PROJECT_DIR$/Core/src/main/java/Commons.java" />
+        <option value="$PROJECT_DIR$/Core/src/main/java/DataReader.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Core/pom.xml" />
+        <option value="$PROJECT_DIR$/Core/src/main/java/DataRead.java" />
+        <option value="$PROJECT_DIR$/UI/src/test/java/Purchase.java" />
+        <option value="$PROJECT_DIR$/UI/src/test/java/ReadfromExcel.java" />
+        <option value="$PROJECT_DIR$/UI/src/test/resources/UI-Runner.xml" />
       </list>
     </option>
   </component>
@@ -213,6 +248,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="IconAcademe" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="IconAcademe" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="67" />
@@ -290,21 +341,6 @@
               <item name="IconAcademe" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IconAcademe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IconAcademe" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IconAcademe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IconAcademe" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,6 +365,9 @@
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -566,40 +605,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.28 at 21h 18m 56s.xml">
+    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.29 at 23h 08m 46s.xml">
       <configuration name="/Users/tzaman/Workspace/IconAcademe/UI/src/test/resources/UI-Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.28 at 21h 22m 59s.xml">
+    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.30 at 00h 43m 49s.xml">
       <configuration name="/Users/tzaman/Workspace/IconAcademe/UI/src/test/resources/UI-Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.28 at 21h 25m 06s.xml">
+    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.30 at 00h 46m 39s.xml">
       <configuration name="/Users/tzaman/Workspace/IconAcademe/UI/src/test/resources/UI-Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.28 at 21h 27m 00s.xml">
+    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.30 at 00h 48m 01s.xml">
       <configuration name="/Users/tzaman/Workspace/IconAcademe/UI/src/test/resources/UI-Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.28 at 21h 43m 45s.xml">
+    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.30 at 00h 48m 58s.xml">
       <configuration name="/Users/tzaman/Workspace/IconAcademe/UI/src/test/resources/UI-Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.28 at 21h 45m 16s.xml">
+    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.30 at 00h 54m 43s.xml">
       <configuration name="/Users/tzaman/Workspace/IconAcademe/UI/src/test/resources/UI-Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.28 at 21h 56m 44s.xml">
+    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.30 at 00h 57m 03s.xml">
       <configuration name="/Users/tzaman/Workspace/IconAcademe/UI/src/test/resources/UI-Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.28 at 22h 03m 07s.xml">
+    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.30 at 00h 58m 20s.xml">
       <configuration name="/Users/tzaman/Workspace/IconAcademe/UI/src/test/resources/UI-Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.28 at 22h 11m 14s.xml">
+    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.30 at 00h 59m 55s.xml">
       <configuration name="/Users/tzaman/Workspace/IconAcademe/UI/src/test/resources/UI-Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.28 at 22h 12m 14s.xml">
+    <history-entry file="_Users_tzaman_Workspace_IconAcademe_UI_src_test_resources_UI-Runner_xml - 2017.11.30 at 01h 01m 06s.xml">
       <configuration name="/Users/tzaman/Workspace/IconAcademe/UI/src/test/resources/UI-Runner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -608,13 +646,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -625,7 +664,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -663,19 +701,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/UI/src/test/java/InvalidLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="351">
+          <caret line="36" column="82" lean-forward="false" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -687,10 +719,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UI/src/test/java/Mousehover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/src/test/java/CoursesModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/src/test/java/LogoutFromSettingOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/src/test/java/LoginAndLogout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/main/java/Commons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="104" column="11" lean-forward="false" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8020#8021#0" expanded="true" />
+            <element signature="e#8087#8088#0" expanded="true" />
+            <element signature="e#8572#8573#0" expanded="true" />
+            <element signature="e#8633#8634#0" expanded="true" />
+            <element signature="e#9458#9470#0" expanded="true" />
+            <element signature="e#9829#9841#0" expanded="true" />
+            <element signature="e#9886#9894#0" expanded="true" />
+            <element signature="e#10702#10714#0" expanded="true" />
+            <element signature="e#10925#10937#0" expanded="true" />
+            <element signature="e#11165#11166#0" expanded="true" />
+            <element signature="e#11205#11206#0" expanded="true" />
+            <element signature="e#11240#11241#0" expanded="true" />
+            <element signature="e#11283#11284#0" expanded="true" />
+            <element signature="e#11335#11336#0" expanded="true" />
+            <element signature="e#11383#11384#0" expanded="true" />
+            <element signature="e#12052#12053#0" expanded="true" />
+            <element signature="e#12119#12120#0" expanded="true" />
+            <element signature="e#12371#12379#0" expanded="true" />
+            <element signature="e#13723#13724#0" expanded="true" />
+            <element signature="e#13771#13772#0" expanded="true" />
+            <element signature="e#13810#13811#0" expanded="true" />
+            <element signature="e#13860#13861#0" expanded="true" />
+            <element signature="e#16044#16045#0" expanded="true" />
+            <element signature="e#16111#16112#0" expanded="true" />
+            <element signature="e#16154#16155#0" expanded="true" />
+            <element signature="e#16234#16235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="55" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/main/java/DataRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/src/test/java/Purchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/src/test/java/ReadfromExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UI/src/test/resources/UI-Runner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="396">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -703,90 +855,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI/src/test/java/CoursesModule.java">
+    <entry file="file://$PROJECT_DIR$/UI/src/test/java/app_base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/src/test/java/LoginAndLogout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/src/test/java/LogoutFromSettingOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/src/test/java/Mousehover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UI/src/test/java/StoreButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/main/java/Commons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2350">
-          <caret line="249" column="5" lean-forward="true" selection-start-line="249" selection-start-column="5" selection-end-line="249" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8024#8025#0" expanded="true" />
-            <element signature="e#8091#8092#0" expanded="true" />
-            <element signature="e#8576#8577#0" expanded="true" />
-            <element signature="e#8637#8638#0" expanded="true" />
-            <element signature="e#9462#9474#0" expanded="true" />
-            <element signature="e#9833#9845#0" expanded="true" />
-            <element signature="e#9890#9898#0" expanded="true" />
-            <element signature="e#10706#10718#0" expanded="true" />
-            <element signature="e#10929#10941#0" expanded="true" />
-            <element signature="e#11169#11170#0" expanded="true" />
-            <element signature="e#11209#11210#0" expanded="true" />
-            <element signature="e#11244#11245#0" expanded="true" />
-            <element signature="e#11287#11288#0" expanded="true" />
-            <element signature="e#11339#11340#0" expanded="true" />
-            <element signature="e#11387#11388#0" expanded="true" />
-            <element signature="e#12056#12057#0" expanded="true" />
-            <element signature="e#12123#12124#0" expanded="true" />
-            <element signature="e#12375#12383#0" expanded="true" />
-            <element signature="e#13727#13728#0" expanded="true" />
-            <element signature="e#13775#13776#0" expanded="true" />
-            <element signature="e#13814#13815#0" expanded="true" />
-            <element signature="e#13864#13865#0" expanded="true" />
-            <element signature="e#15805#15806#0" expanded="true" />
-            <element signature="e#15872#15873#0" expanded="true" />
-            <element signature="e#15915#15916#0" expanded="true" />
-            <element signature="e#15995#15996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/src/test/java/InvalidLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="36" column="82" lean-forward="false" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+        <state relative-caret-position="270">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
