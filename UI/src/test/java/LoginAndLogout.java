@@ -13,7 +13,7 @@ public class LoginAndLogout extends Commons {
         verifyURL(ObjectRepo.loginURL);
 
         //UserID input
-        typeByCss("input#user_login", "userID");
+        typeByCss("input#user_login", "test");
 
         //UserPassword input
         typeByCss("input#user_pass", "test1234");

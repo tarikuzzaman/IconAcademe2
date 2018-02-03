@@ -3,9 +3,9 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.support.ui.Select;
 
 
-public class StoreButton extends Commons {
+public class StoreButton extends app_base {
 
-    Select ddList = new Select(driver.findElement(By.name("product_cat")));
+
 
     @Test
     public void storeButton() throws InterruptedException {
@@ -17,6 +17,7 @@ public class StoreButton extends Commons {
         navigateBack();
 
         //DropDown menu test
+        Select ddList = new Select(driver.findElement(By.name("product_cat")));
         ddList.selectByValue("it-courses");
         sleepFor(2);
         goBackToHomeWindow();

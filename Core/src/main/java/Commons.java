@@ -30,9 +30,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by PIIT_NYA on 5/6/2017.
- */
+
 public class Commons {
 
     public static ExtentReports extent;
@@ -116,24 +114,24 @@ public class Commons {
             //run in local
             getLocalDriver(os, browserName);
         }
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(35, TimeUnit.SECONDS);
         driver.get(url);
     }
     public WebDriver getLocalDriver(@Optional("mac") String OS,String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Core/drivers/chromedriver");
             }else if(OS.equalsIgnoreCase("Win")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Core/drivers/chromedriver.exe");
             }
             driver = new ChromeDriver();
         }
         else if(browserName.equalsIgnoreCase("firefox")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "../Core/drivers/geckodriver");
             }else if(OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "../Core/drivers/geckodriver");
             }
             driver = new FirefoxDriver();
 
